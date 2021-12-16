@@ -1,0 +1,29 @@
+.aboutme
+    background-color: $black
+    &__title
+        margin: 0px auto
+        color: #fff
+        text-transform: uppercase
+        +Bold
+        font-size: 24px
+        text-align: center
+        padding: 40px 0
+    &__name
+        width: 210px
+        color: #fff
+        text-transform: uppercase
+        +Bold
+        font-size: 36px
+        &::after
+            content: ''
+            display: block
+            height: 2px
+            background: $accent
+            position: relative
+            top: 10px
+    &__info
+        color: #fff
+        font-size: 14px
+        +Regular
+    &__marker
+        color: $accent
