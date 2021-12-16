@@ -269,6 +269,130 @@ header {
   line-height: 20px;
 }
 
+.case {
+  background-color: #181818;
+}
+
+.case__title {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 23px;
+  font-family: 'Montserrat Black';
+  text-align: center;
+  width: 290px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.case__h {
+  color: #C09464;
+}
+
+.case-block {
+  width: 330px;
+  background-color: #343434;
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.case__p {
+  padding: 40px 20px 20px 20px;
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Montserrat Regular';
+  text-align: center;
+  display: inline-block;
+}
+
+.case__bold {
+  font-family: 'Montserrat Bold';
+}
+
+.case__price {
+  color: #fff;
+  font-family: 'Montserrat Black';
+  font-size: 24px;
+}
+
+.case-detals {
+  width: 230px;
+}
+
+.case-time, .case-loc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 30px;
+}
+
+.case-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.case__name {
+  margin: 0;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Montserrat Bold';
+}
+
+.case__value {
+  margin: 0;
+  color: #fff;
+  font-size: 13px;
+  font-family: 'Montserrat Regular';
+}
+
+.case__payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+Button {
+  background-color: #C09464;
+  color: #fff;
+  font-family: 'Montserrat Bold';
+  font-size: 16px;
+  border: none;
+  width: 290px;
+  height: 60px;
+  margin: 10px 25px 40px 25px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 5px 15px rgba(192, 148, 100, 0.3);
+          box-shadow: 0px 5px 15px rgba(192, 148, 100, 0.3);
+}
+
 body {
   min-width: 320px;
   overflow-x: hidden;
